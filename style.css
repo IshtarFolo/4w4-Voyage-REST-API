@@ -1,0 +1,56 @@
+.contenu__restapi {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .contenu__restapi {
+    flex-direction: column;
+  }
+}
+
+#evenements > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#evenements > section > h2 {
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.8rem + 1vw, 3rem);
+  align-self: flex-start;
+}
+
+.form__restapi {
+  align-self: flex-start;
+}
+
+.restapi__carte {
+  flex: 0 0 300px;
+  z-index: 2;
+  padding: 1rem;
+  background-color: hsl(204, 100%, 15%);
+}
+
+.restapi__carte h2 {
+  color: hsl(205.09, 73.33%, 70.59%);
+}
+
+.restapi__carte p {
+  color: hsl(205.09, 73.33%, 70.59%);
+}
+
+.form__restapi {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+#evenements > section > form > label {
+  color: hsl(205.09, 73.33%, 70.59%);
+}/*# sourceMappingURL=style.css.map */
