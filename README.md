@@ -4,11 +4,12 @@
 
 ### Information du devis:
 #### Champs personnalisés
-Exemple de champs personnalisée :
--	Température minimum/maximum/moyen
+Les champs personnalisée :
+-	Température minimum/maximum
 -	Précipitation annuelle
 -	Ville avoisinante
--	Appréciation (1 à 5 avec *)
+-	Catégories
+-	Continents
 
 #### Filtres d’extraction
 Dans la page d’accueil des filtres dynamique permettent d’obtenir un résultat directement sans avoir à actualiser la page globalement. Il s’agit ici d’utiliser la REST API de Wordpress)
