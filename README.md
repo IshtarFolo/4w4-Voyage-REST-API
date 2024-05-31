@@ -14,3 +14,5 @@ Les champs personnalisée :
 #### Filtres d’extraction
 Dans la page d’accueil des filtres dynamique permettent d’obtenir un résultat directement sans avoir à actualiser la page globalement. Il s’agit ici d’utiliser la REST API de Wordpress)
 
+##### Liens vers l'hébergeur WHC
+- https://gftnth00.mywhc.ca/tim07/
